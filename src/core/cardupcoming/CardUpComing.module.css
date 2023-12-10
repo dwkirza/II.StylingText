@@ -1,0 +1,19 @@
+.container {
+  @apply border-t border-[#F2F2F2] w-full flex flex-row justify-between items-center p-[23px] pb-[13px];
+}
+
+.wrapper_category_date {
+  @apply w-36;
+}
+
+.category {
+  @apply text-[#8B0B04] text-sm font-normal mb-2;
+}
+
+.date {
+  @apply text-[13px] text-black/40 font-normal;
+}
+
+.title {
+  @apply w-[378px] text-[24px] font-normal;
+}

@@ -1,0 +1,15 @@
+.container {
+  @apply bg-[#2F2A2A] p-[120px];
+}
+
+.title {
+  @apply text-white font-normal text-[42px] mb-[40px];
+}
+
+.icon {
+  @apply grid grid-cols-6 gap-8;
+}
+
+.fixHeigh {
+  @apply w-[173px] h-[173px] flex justify-center items-center;
+}

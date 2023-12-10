@@ -1,0 +1,34 @@
+.container {
+  @apply w-full h-[266px] bg-[#2F2A2A]  flex flex-col relative;
+}
+
+.wrapper {
+  @apply flex flex-row justify-between pt-[50px] pb-14 border-b border-white/40;
+}
+
+.wrapper_icon {
+  @apply flex flex-row gap-6  mx-[120px];
+}
+
+.icon {
+  @apply flex flex-row gap-5  items-center ml-[12px];
+}
+
+.subs {
+  @apply flex flex-col gap-3 text-2xl font-light text-white mx-[120px] w-[400px];
+}
+.wrapper_button {
+  @apply w-12 h-12 flex justify-center items-center bg-[#B92322] z-50 opacity-80 hover:opacity-100 transition-opacity duration-300 ease-in-out;
+}
+
+.copyright {
+  @apply mx-[120px] h-full flex flex-row justify-between items-center text-white font-bold text-sm;
+}
+
+.input {
+  @apply w-4/5 text-black;
+}
+
+.up {
+  @apply -top-7 right-[135px] flex justify-center items-center absolute rounded-full w-14 h-14 bg-[#B92322] z-50 opacity-80 hover:opacity-100 transition-opacity duration-300 ease-in-out;
+}

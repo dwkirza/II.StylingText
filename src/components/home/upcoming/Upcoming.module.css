@@ -1,0 +1,23 @@
+.container {
+  @apply w-full px-[120px] mb-[100px];
+}
+
+.title {
+  @apply text-[42px] font-light;
+}
+
+.wrapper_head {
+  @apply w-full flex flex-row justify-between items-center mb-10;
+}
+
+.viewall {
+  @apply text-[#B92322] flex flex-row justify-center items-center text-base font-bold opacity-80 hover:opacity-100 transition-opacity duration-300 ease-in-out;
+}
+
+.wrapper_info {
+  @apply w-full flex flex-row justify-between;
+}
+
+.info {
+  @apply w-3/5 pl-[40px] flex flex-col;
+}

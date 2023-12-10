@@ -1,0 +1,22 @@
+.container {
+  @apply overflow-hidden w-full h-[680px] mb-[100px] text-white   flex flex-row justify-between items-center bg-white;
+}
+
+.wrapper_title {
+  @apply relative  flex flex-col w-2/5 h-full bg-[#2F2A2A]   pt-[120px] pl-[120px] pr-20;
+}
+
+.breadcumb {
+  @apply flex flex-row gap-1 text-white/80 font-normal text-lg;
+}
+
+.bgup {
+  @apply absolute top-[190px] left-[50px];
+}
+
+.bgdown {
+  @apply absolute top-[300px] left-[0px];
+}
+.wrapper_img {
+  @apply w-3/5 h-[680px] relative;
+}

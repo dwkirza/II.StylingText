@@ -1,0 +1,35 @@
+.container {
+  @apply w-full h-screen pt-[120px]  text-white   flex flex-col;
+}
+
+.wrapper_title {
+  @apply mb-[40px] pl-[120px] font-light w-[550px];
+}
+
+.button_nav {
+  @apply flex flex-row gap-[60px] font-bold pl-[120px];
+}
+
+.button {
+  @apply flex flex-row justify-center items-center  gap-3 opacity-70 transition-opacity duration-300 ease-in-out hover:opacity-100;
+}
+
+.wrapper_info {
+  @apply flex flex-row  w-full  mt-auto;
+}
+
+.wrapper_presentase {
+  @apply bg-white text-black/40  h-[156px] w-[853px] px-10 gap-20 flex items-center;
+}
+
+.text_red {
+  @apply text-4xl text-[#B92322] font-light;
+}
+
+.text_abu {
+  @apply font-normal text-base mt-1 mb-2;
+}
+
+.wrapper_icon_logo {
+  @apply h-[156px] w-auto  pl-7 pr-[120px] gap-8 flex items-center;
+}

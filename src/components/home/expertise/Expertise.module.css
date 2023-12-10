@@ -1,0 +1,59 @@
+.container {
+  @apply pt-[80px] h-full relative bg-transparent;
+}
+
+.bg_blue {
+  @apply h-[1502px] w-full -z-10 bg-[#F5F5F5] absolute top-0;
+}
+
+.title {
+  @apply text-[42px] mb-2 px-[120px];
+}
+
+.sub_title {
+  @apply text-base w-[800px]  mb-14 pl-[120px];
+}
+
+.wrapper_card {
+  @apply grid grid-cols-3  gap-8 mb-[120px] px-[120px];
+}
+
+.wrapper_testimoni {
+  @apply mb-[120px] relative  h-[598px] w-full  flex justify-end items-center;
+}
+
+.testimoni {
+  @apply h-full w-[1115px] bg-[#B92322] overflow-hidden relative;
+}
+
+.circleup {
+  @apply opacity-40 absolute  bg-[#600000]/30 w-[640px] h-[640px] rounded-full top-[-250px] left-[230px];
+}
+
+.circleleft {
+  @apply opacity-40 absolute  bg-[#600000]/30 w-[754px] h-[754px] rounded-full bottom-[-300px] right-[-15px];
+}
+
+.circleright {
+  @apply opacity-40 absolute  bg-[#600000]/30 w-[754px] h-[754px] rounded-full bottom-[-300px] left-[-15px];
+}
+
+.wrapper_text {
+  @apply z-50 flex flex-col text-white pl-[443px] justify-center h-full;
+}
+
+.text_testimoni {
+  @apply z-50 w-[550px] text-[28px] font-normal mb-6;
+}
+
+.subtext_testimoni {
+  @apply z-50 text-lg font-normal mb-[42px];
+}
+
+.wrapper_slider {
+  @apply flex flex-row justify-between items-center mr-[120px] gap-[32px];
+}
+
+.wrapper_button {
+  @apply flex gap-3 w-1/5;
+}

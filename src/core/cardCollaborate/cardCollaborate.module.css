@@ -1,0 +1,11 @@
+.detail {
+  @apply w-[379px];
+}
+
+.subtitle {
+  @apply text-[36px] font-light text-black mt-5 mb-[6px];
+}
+
+.text {
+  @apply text-[#504B49] font-normal text-base;
+}

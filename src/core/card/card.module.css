@@ -1,0 +1,19 @@
+.wrapper_card {
+  @apply relative bg-[#8B0B04] w-[379px] h-[379px] py-8 px-[18px] flex flex-col overflow-hidden;
+}
+
+.text {
+  @apply z-10 mt-3 text-4xl font-light text-white leading-[46px];
+}
+
+.button {
+  @apply z-10 flex mt-auto justify-end opacity-70 transition-opacity duration-300 ease-in-out hover:opacity-100;
+}
+
+.circleup {
+  @apply absolute  bg-[#600000]/30 w-[407px] h-[407px] rounded-full top-[-120px] left-[42px];
+}
+
+.circledown {
+  @apply absolute  bg-[#600000]/30 w-[552px] h-[552px] rounded-full bottom-[-300px] right-[-15px];
+}

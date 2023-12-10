@@ -1,0 +1,11 @@
+.container {
+  @apply w-full border flex flex-col px-[120px] bg-[#F5F5F5] pt-[80px] pb-[100px];
+}
+
+.title {
+  @apply text-[42px] font-light pb-[80px] border-b border-[#E0E0E0];
+}
+
+.wrapper_detail {
+  @apply flex flex-row justify-between  mt-5;
+}

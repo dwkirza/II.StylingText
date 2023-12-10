@@ -1,0 +1,15 @@
+.container {
+  @apply relative w-full h-[600px];
+}
+
+.wrapper_card {
+  @apply absolute w-full  px-[120px] bottom-0 flex flex-row justify-between items-end mb-[68px];
+}
+
+.card {
+  @apply w-[379px];
+}
+
+.title {
+  @apply cursor-pointer text-white font-normal text-[42px] pb-5 border-b opacity-80 transition-opacity duration-300 ease-in-out hover:opacity-100;
+}
